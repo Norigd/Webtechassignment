@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <title>product page</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header-wrapper-product">
+    <!--Logo-->
+            <header>
+                <a href="index.html">
+                    <div id="logo"></div>
+                </a>
+
+    <!--Navigation bar selection-->
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#"><button onclick="window.location.href='gallery.html'" class="btn-nav">Gallery</button></a></li>
+                        <li><a href="#"><button class="btn-nav">Consultation</button></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="divide"> </div>
+        
+        </div>
+
+        <div id="content-wrapper">
+            <section id="content-box">
+                <div class="content-description">
+                    <div id="place-for-content"></div>
+
+                    <div id="booking-information">
+                        <div><h2>Registration</h2></div>
+                        <div class="calendar">
+                            <div class="month">April 2024</div>
+                            <div class="days-of-week">
+                            <div class="day">S</div>
+                            <div class="day">M</div>
+                            <div class="day">T</div>
+                            <div class="day">W</div>
+                            <div class="day">T</div>
+                            <div class="day">F</div>
+                            <div class="day">S</div>
+                            </div>
+                            <div class="days">
+                            </div>
+                        </div>
+
+                        <div class="form-container">
+                            <form class="entry-form">
+                              <div class="input-box">
+                                <input type="text" placeholder="Name" required>
+                              </div>
+                              <div class="input-box">
+                                <input type="text" placeholder="Last Name" required>
+                              </div>
+                              <div class="input-box">
+                                <input type="email" placeholder="Email" required>
+                              </div>
+                              <div class="input-box">
+                                <input type="tel" placeholder="Number" required>
+                              </div>
+                              <button class="form-button" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <div class="divide"> </div>
+
+        <div id="footer-wrapper">
+            <footer id="footer-">
+                <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">News</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div id="logo-"></div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="js/details.js"></script>
+</html>
